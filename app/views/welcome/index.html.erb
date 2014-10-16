@@ -1,2 +1,55 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+
+    <div class="navbar navbar-default" id="main-header" role="navigation">
+      <div class="container test">
+          <a class="navbar-brand main-brand" href="#">Thoughtful Food</a>
+      </div>
+    </div>
+
+    <div class="container main">
+      <div class="container">
+        <div class="message">
+          <p>Enjoy your meal<span style="color:red"> time</span></p>
+        </div>
+        <div class="delivery">
+          <p>Guaranteed delivery by</p>
+          <p class="delivery_time"><%= @delivery_time %></p>
+        </div>
+        <div class="blurb col-md-6 center-block">
+          <p class="header">Quick - Curated - Healthy</p>
+          <div class="text">Your time is valuable. that's why we aim to bring you a special selection of healthy food quickly. Enjoy what really matters in life</div>
+          <div class="col-md-12 text-center">
+            <button type="button" class="btn btn-primary btn-large text-center explore">Explore Now</button>
+          </div>
+        </div>
+        <div class="login col-md-6">
+          <form class="form-signin" role="form">
+            <input type="email" class="form-control login-inner" placeholder="Email address" required autofocus>
+            <input type="password" class="form-control login-inner" placeholder="Password" required>
+            <!-- <label class="checkbox">
+              <input type="checkbox" value="remember-me" />
+            </label> -->
+            <div class="login-buttons">
+              <button class="btn btn-lg btn-primary login-inner-button" type="submit">Sign up</button>
+              <button class="btn btn-lg btn-primary login-inner-button" type="submit">Login</button>
+            </div>
+            <a class="password-forgot" href="#">Forgot your password?</a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container food">
+        <div class="col-md-3">
+          <img src="http://pinnest.net/newpinnest/wp-content/uploads/2013/08/1377244224c1d2e.jpg" />
+        </div>
+        <div class="col-md-3">
+          <img src="http://i160.photobucket.com/albums/t162/hotlyts24/graphics/yummy-foods/yummy-foods4.jpg" />
+        </div>
+        <div class="col-md-3">
+          <img src="http://inspirationfeeed.files.wordpress.com/2013/02/tumblr_mh0o5mxe6o1rslfxoo1_5001.jpg" />
+        </div>
+        <div class="col-md-3">
+          <img src="http://wallpaperest.com/wallpapers/delicious-food-festival-package-cheese-bread_587099.jpg" />
+        </div>
+    </div>
+
